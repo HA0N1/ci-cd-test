@@ -11,8 +11,8 @@ import {
 import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 
-import { User } from './entities/user.entity';
 import { Role } from './types/userRole.type';
+import { User } from './entities/user.entity';
 
 @Injectable()
 export class UserService {
